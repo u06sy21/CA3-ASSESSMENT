@@ -1,0 +1,79 @@
+.body {
+ background-color:#d0e4fe;
+}
+h1 {
+ color:orange;
+ text-align:center;
+}
+p {
+    /* 这是注释 */
+ font-family:"Times New Roman";
+ font-size:20px;
+    color:red;
+ text-align:center;
+}
+#para1
+{
+ text-align:center;
+ color:yellow;
+} 
+.center
+{
+ text-align:center;
+}
+p.center
+{
+ text-align:center;
+}
+.header{
+    background-color: cyan;
+text-align: center;
+padding: 20px;
+}
+
+.topnav{
+    overflow:hidden;
+    padding: 10px;
+    background-color: tomato;
+}
+.topnav a{
+    float:left
+    display:block;
+    color: #f2f2f2;
+    text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+.topnav a:hover {
+ background-color: #ddd;
+ color: black;
+  }
+.column {
+ float: left;
+ width: 33.33%;
+  }
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+  }
+
+@media screen and (max-width: 600px) {
+ .column {
+   width: 100%;
+ }
+  }
+
+.footer {
+ background-color:white;
+ padding: 40px;
+ text-align: center;
+  }
+  h1 {text-align:center;}
+p.date {text-align:right;}
+p.main {text-align:justify;}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
